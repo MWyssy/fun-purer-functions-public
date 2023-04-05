@@ -17,7 +17,7 @@ describe('removeLastNumber tests', () => {
         //Act
         const output = removeLastNumber(arrayOfNumbers);
         //Assert
-        expect(output).not.toBe(expectedOutput);
+        expect(output).not.toBe(arrayOfNumbers);
       });
       test('returns an empty array if passed an array with only one element', () => {
         //Arrange
